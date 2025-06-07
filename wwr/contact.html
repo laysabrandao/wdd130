@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="styles/rafting.css">
+  <meta name="description" content="Contact Us Page">
+  <meta name="author" content="Laysa Brandão">
+
+  <title>Contact Us - Rafting for Life</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Abel&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="images/wwr-logo.png" alt="Rafting Company Logo">
+    </div>
+    <nav class="navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="trips.html">Trips</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Contact Info -->
+    <section class="contact-info">
+      <h2>Contact Information</h2>
+      <p><strong>Address:</strong> 123 River Rd, Adventure Town, CO</p>
+      <p><strong>Phone:</strong> (123) 456-7890</p>
+      <p><strong>Email:</strong> info@raftinglife.com</p>
+      <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.4213299796775!2d-46.18715102546808!3d-22.823896434912385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ceac3668237e7b%3A0x1fac3a38057cfd89!2sRadix%20Aventura!5e0!3m2!1spt-BR!2sbr!4v1749272072436!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+
+    <!-- Employee Section -->
+    <section class="employees">
+      <h2>Meet Our Team</h2>
+      <div class="employee-gallery">
+        <figure>
+          <img src="images/employee1.jpg" alt="Maria Clara">
+          <figcaption><strong>Maria Clara</strong><br>Tour Guide</figcaption>
+        </figure>
+        <figure>
+          <img src="images/employee2.jpg" alt="João Pedro">
+          <figcaption><strong>João Pedro</strong><br>Customer Support</figcaption>
+        </figure>
+        <figure>
+          <img src="images/employee3.jpg" alt="Ana Carolina">
+          <figcaption><strong>Ana Carolina</strong><br>Safety Specialist</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="contact-form">
+      <h2>Send Us a Message</h2>
+      <form action="#" method="post">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name">
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email">
+
+        <p>Purpose of Message:</p>
+        <label><input type="radio" name="purpose" value="general"> General Inquiry</label><br>
+        <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label><br>
+        <label><input type="radio" name="purpose" value="website"> Website Suggestion</label>
+
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" rows="5"></textarea>
+
+        <label>
+          <input type="checkbox" name="subscribe">
+          Please subscribe me to the monthly newsletter
+        </label>
+
+        <button type="submit">Submit Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Rafting for Life | Laysa Brandão</p>
+    <nav class="socialmedia">
+      <a href="https://facebook.com"><img src="images/face.webp" alt="facebook"></a>
+      <a href="https://twitter.com"><img src="images/twitter.webp" alt="twitter"></a>
+      <a href="https://instagram.com"><img src="images/insta.webp" alt="instagram"></a>
+    </nav>
+    <p><a href="images/contact-wireframe.jpg" target="_blank">View Wireframe</a></p>
+  </footer>
+</body>
+</html>
