@@ -1,5 +1,5 @@
 :root {
-    --primary-color:#3C5268;
+    --primary-color:#53708c;
     --secondary-color:#A6C6DD;
     --accent1-color:#525252;
     --accent2-color:#D6D6D6;
@@ -251,4 +251,213 @@ footer p {
 
 .contact-form button:hover {
   background-color: #2c3e50;
+}
+
+/* INDEX HTML COMPLEMENT -------------------------------------------------------------------------------------*/
+
+/* Call to Action Section */
+.call-to-action {
+  text-align: center;
+  padding: 2rem;
+  background-color: var(--accent2-color);
+}
+
+.call-to-action h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.call-to-action p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.call-to-action a {
+  display: inline-block;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.call-to-action a:hover {
+  background-color: #2c3e50;
+}
+
+/* Newsletter Signup Section */
+.newsletter {
+  padding: 2rem;
+  background-color: var(--secondary-color);
+  text-align: center;
+}
+
+.newsletter h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.newsletter p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.newsletter form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.newsletter input[type="text"],
+.newsletter input[type="email"] {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--accent1-color);
+  border-radius: 4px;
+  font-family: var(--body-font);
+}
+
+.newsletter button {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.newsletter button:hover {
+  background-color: #2c3e50;
+}
+
+/* Info Grid Section */
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  background-color: var(--accent2-color);
+  text-align: center;
+}
+
+.info-grid img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.info-grid h3 {
+  margin: 1rem 0 0.5rem;
+  font-family: var(--heading-font);
+}
+
+.info-grid p {
+  font-family: var(--body-font);
+}
+
+
+/* TRIP PAGE---------------------------------------------------------------------------------------------- */
+
+/* Call to Action */
+.cta {
+  background-color: var(--accent2-color);
+  color: var(--accent1-color);
+  text-align: center;
+  padding: 2rem 1rem;
+  margin: 2rem 0;
+}
+
+.cta a {
+  display: inline-block;
+  margin-top: 1rem;
+  background-color: var(--primary-color);
+  color: var(--accent2-color);
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.cta a:hover {
+  background-color:  #5e7f9e;
+}
+
+/* Trip Descriptions */
+.trips-section {
+  padding: 2rem;
+  background-color: var(--accent2-color);
+}
+
+.trips-section h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.trip-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.trip {
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.trip img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.trip h3 {
+  margin: 1rem 0 0.5rem;
+  color: var(--primary-color);
+}
+
+.trip p {
+  padding: 0 1rem;
+}
+
+/* Trip Table */
+.trip-table-section {
+  padding: 2rem;
+  background-color: var(--accent2-color);
+}
+
+.trip-table-section h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.trip-table {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.trip-table th,
+.trip-table td {
+  border: 1px solid var(--accent1-color);
+  padding: 0.75rem;
+  text-align: center;
+}
+
+.trip-table th {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.trip-table tr:nth-child(even) {
+  background-color: #f0f0f0;
 }
